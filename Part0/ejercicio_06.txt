@@ -1,0 +1,8 @@
+graph TD
+    subgraph SPA
+        A[Usuario] --> B[Página de notas SPA]
+        B --> C[Escribe una nueva nota]
+        C --> D[Hace clic en "Guardar"]
+        D --> E[Envía nota al servidor]
+        E --> F[Recibe confirmación]
+    end

@@ -1,0 +1,6 @@
+graph TD
+    subgraph SPA
+        A[Usuario] --> B[Página de notas SPA]
+        B --> C[Obtiene datos JSON]
+        C --> D[Renderiza notas]
+    end
